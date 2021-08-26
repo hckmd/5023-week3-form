@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marks received</title>
+    </head>
+    <body>
+        <p>You have entered the following details: </p>
+        {% for key, value in student_record.items() %}
+        <p> {{ key}} -- {{ value }} </p>
+        {% endfor %}
+    </body>
+</html>
+

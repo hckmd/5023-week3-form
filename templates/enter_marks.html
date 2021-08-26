@@ -1,0 +1,49 @@
+<html>
+   <body>
+      <h3>Enter student marks in this form. </h3>
+         <form action = "/submit-marks" method = "POST" id = "form1">
+
+
+            <label for = "student_name"> Student name: </label>
+            <input type = "text" name = "student_name" id = "student_name" >  
+            <p></p>
+
+            <label for = "english_mark"> English: </label>
+            <input type = "number" name = "english_mark" id = "english_mark" >  
+            <p></p>
+
+            <label for = "maths_mark"> Maths: </label>
+            <input type = "number" name = "maths_mark" id = "maths_mark" >  
+            <p></p>
+
+            <label for = "science_mark"> Science:</label>
+            <input type = "number" name = "science_mark" id = "science_mark" > 
+            <p></p>
+
+            <h3>Behaviours</h3>
+
+            <input type="checkbox" id="beh1" name="does_homework" > 
+            <label for="beh1"> Does homework</label><br>
+            
+            <input type="checkbox" id="beh2" name="brings_equipment" > 
+            <label for="beh2"> Brings equipment to class</label><br>
+            
+            <input type="checkbox" id="beh3" name="works_well" >
+            <label for="beh3">Works well with others</label><br>
+
+            <h3>Follow up</h3>
+
+            <input type="radio" id="phone" name="followup" value = "phone parent" checked > 
+            <label for="phone">Phone call to parent</label>
+            
+            <input type="radio" id="email" name="followup" value =  "email parent" > 
+            <label for="email">Email to parent</label> 
+
+            <p></p>
+
+            <input type = "submit" value = "Submit" />
+      </form>   
+
+   </body>
+</html>
+
